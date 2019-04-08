@@ -89,3 +89,24 @@ contact[2].textContent = siteContent['contact']['email'];
 
 let footer = document.querySelector('footer');
 footer.textContent = "Copyright Great Idea! 2018"
+
+let nava = document.querySelectorAll('nav a');
+nava[0].style.color = 'green';
+nava[1].style.color = 'green';
+nava[2].style.color = 'green';
+nava[3].style.color = 'green';
+nava[4].style.color = 'green';
+nava[5].style.color = 'green';
+
+let nav = document.querySelector('nav');
+let a = document.createElement('a')
+a.textContent = "Home"
+a.setAttribute('href', '#')
+a.style.color = 'green'
+nav.prepend(a)
+
+let a2 = document.createElement('a')
+a2.textContent = "Schedule"
+a2.setAttribute('href', '#')
+a2.style.color = 'green'
+nav.appendChild(a2)
